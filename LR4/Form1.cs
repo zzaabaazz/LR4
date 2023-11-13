@@ -16,5 +16,13 @@ namespace LR4
         {
             InitializeComponent();
         }
+
+        private void StartButton_Click(object sender, EventArgs e)
+        {
+            Computer new_person;
+            new_person = 
+            ResultBox.Text += new_person.GetInformation();
+
+        }
     }
 }
