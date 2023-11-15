@@ -27,7 +27,7 @@ namespace LR4
                     Convert.ToInt32(HardCapacityBox.Text), Convert.ToInt32(RamCapacityBox.Text), Convert.ToDouble(PriceBox.Text));
                 ResultBox.Text += new_person.GetInformation();
                 ResultBox.Text += Environment.NewLine;
-            } catch (Exception ex) { MessageBox.Show("Ошибка формата данных. Убедитесь, что все поля содержат числа или корректные названия."); }
+            } catch (Exception ex) { MessageBox.Show("ЛОХ!!!!"); }
         }
     }
 }
