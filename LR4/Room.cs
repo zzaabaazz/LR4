@@ -6,25 +6,21 @@ using System.Threading.Tasks;
 
 namespace LR4
 {
-    internal class Computer
+    internal class Room
     {
-        string Model;
-        double ClockRate;
-        string Brand;
-        int HardCapacity;
-        int RamCapacity;
-        double Price;
+        double Length;
+        double Width;
+        double Height;
+        int Windows;
 
-        public Computer(string Model, double ClockRate, string Brand, int HardCapacity, int RamCapacity, double Price)
+        public Room(double Length, double Width, double Height, int Windows)
         {
-            this.Model = Model;
-            this.ClockRate = ClockRate;
-            this.Brand = Brand;
-            this.HardCapacity = HardCapacity;
-            this.RamCapacity = RamCapacity;
-            this.Price = Price;
+            this.Length = Length;
+            this.Width = Width;
+            this.Height = Height;
+            this.Windows = Windows;
         }
-
+        /*
         public string GetInformation()
         {
             string information;
@@ -33,6 +29,6 @@ namespace LR4
                 "; Объем оперативоной памяти: " + this.RamCapacity + "; Стоимость: " + this.Price;
             return information;
         }
-
+        */
     }
 }

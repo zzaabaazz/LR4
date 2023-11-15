@@ -22,12 +22,12 @@ namespace LR4
             
             try
             {
-                Computer new_person;
-                new_person = new Computer(ModelBox.Text, Convert.ToDouble(ClockRateBox.Text), BrandBox.Text,
-                    Convert.ToInt32(HardCapacityBox.Text), Convert.ToInt32(RamCapacityBox.Text), Convert.ToDouble(PriceBox.Text));
+                Room new_person;
+                new_person = new Room(Convert.ToDouble(LengthBox.Text));
                 ResultBox.Text += new_person.GetInformation();
                 ResultBox.Text += Environment.NewLine;
             } catch (Exception ex) { MessageBox.Show("Ошибка формата данных. Убедитесь, что все поля содержат числа или корректные названия!"); }
         }
+
     }
 }
