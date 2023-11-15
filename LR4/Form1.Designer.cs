@@ -46,24 +46,24 @@
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // NameBox
+            // ModelBox
             // 
             this.ModelBox.Location = new System.Drawing.Point(143, 19);
-            this.ModelBox.Name = "NameBox";
+            this.ModelBox.Name = "ModelBox";
             this.ModelBox.Size = new System.Drawing.Size(100, 20);
             this.ModelBox.TabIndex = 0;
             // 
-            // AgeBox
+            // ClockRateBox
             // 
             this.ClockRateBox.Location = new System.Drawing.Point(143, 45);
-            this.ClockRateBox.Name = "AgeBox";
+            this.ClockRateBox.Name = "ClockRateBox";
             this.ClockRateBox.Size = new System.Drawing.Size(100, 20);
             this.ClockRateBox.TabIndex = 1;
             // 
-            // ProfessionBox
+            // BrandBox
             // 
             this.BrandBox.Location = new System.Drawing.Point(143, 71);
-            this.BrandBox.Name = "ProfessionBox";
+            this.BrandBox.Name = "BrandBox";
             this.BrandBox.Size = new System.Drawing.Size(100, 20);
             this.BrandBox.TabIndex = 2;
             // 
@@ -80,6 +80,7 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.PriceBox);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.BrandBox);
@@ -88,7 +89,6 @@
             this.groupBox1.Controls.Add(this.ModelBox);
             this.groupBox1.Controls.Add(this.HardCapacityBox);
             this.groupBox1.Controls.Add(this.RamCapacityBox);
-            this.groupBox1.Controls.Add(this.PriceBox);
             this.groupBox1.Location = new System.Drawing.Point(27, 27);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(249, 177);
@@ -150,24 +150,24 @@
             this.label6.TabIndex = 10;
             this.label6.Text = "Объем RAM";
             // 
-            // textBox1
+            // HardCapacityBox
             // 
-            this.HardCapacityBox.Location = new System.Drawing.Point(143, 149);
-            this.HardCapacityBox.Name = "textBox1";
+            this.HardCapacityBox.Location = new System.Drawing.Point(143, 97);
+            this.HardCapacityBox.Name = "HardCapacityBox";
             this.HardCapacityBox.Size = new System.Drawing.Size(100, 20);
             this.HardCapacityBox.TabIndex = 9;
             // 
-            // textBox2
+            // RamCapacityBox
             // 
             this.RamCapacityBox.Location = new System.Drawing.Point(143, 123);
-            this.RamCapacityBox.Name = "textBox2";
+            this.RamCapacityBox.Name = "RamCapacityBox";
             this.RamCapacityBox.Size = new System.Drawing.Size(100, 20);
             this.RamCapacityBox.TabIndex = 8;
             // 
-            // textBox3
+            // PriceBox
             // 
-            this.PriceBox.Location = new System.Drawing.Point(143, 97);
-            this.PriceBox.Name = "textBox3";
+            this.PriceBox.Location = new System.Drawing.Point(143, 149);
+            this.PriceBox.Name = "PriceBox";
             this.PriceBox.Size = new System.Drawing.Size(100, 20);
             this.PriceBox.TabIndex = 7;
             // 
