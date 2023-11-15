@@ -28,8 +28,9 @@ namespace LR4
         public string GetInformation()
         {
             string information;
-            information = "Модель: " + this.Model + "; Возраст: " + this.ClockRate.ToString() + "; Профессия: " +
-           this.Brand;
+            information = "Модель: " + this.Model + "; Тактовая частота: " + this.ClockRate +
+                "; Марка: " + this.Brand + "; Объем жесткого диска: " + this.HardCapacity +
+                "; Объем оперативоной памяти: " + this.RamCapacity + "; Стоимость: " + this.Price;
             return information;
         }
 
