@@ -28,40 +28,44 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.LengthBox = new System.Windows.Forms.TextBox();
-            this.WidthBox = new System.Windows.Forms.TextBox();
-            this.HeightBox = new System.Windows.Forms.TextBox();
+            this.ModelBox = new System.Windows.Forms.TextBox();
+            this.ClockRateBox = new System.Windows.Forms.TextBox();
+            this.BrandBox = new System.Windows.Forms.TextBox();
             this.ResultBox = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.WindowsBox = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.HardCapacityBox = new System.Windows.Forms.TextBox();
+            this.RamCapacityBox = new System.Windows.Forms.TextBox();
+            this.PriceBox = new System.Windows.Forms.TextBox();
             this.StartButton = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // LengthBox
+            // ModelBox
             // 
-            this.LengthBox.Location = new System.Drawing.Point(143, 19);
-            this.LengthBox.Name = "LengthBox";
-            this.LengthBox.Size = new System.Drawing.Size(100, 20);
-            this.LengthBox.TabIndex = 0;
+            this.ModelBox.Location = new System.Drawing.Point(143, 19);
+            this.ModelBox.Name = "ModelBox";
+            this.ModelBox.Size = new System.Drawing.Size(100, 20);
+            this.ModelBox.TabIndex = 0;
             // 
-            // WidthBox
+            // ClockRateBox
             // 
-            this.WidthBox.Location = new System.Drawing.Point(143, 45);
-            this.WidthBox.Name = "WidthBox";
-            this.WidthBox.Size = new System.Drawing.Size(100, 20);
-            this.WidthBox.TabIndex = 1;
+            this.ClockRateBox.Location = new System.Drawing.Point(143, 45);
+            this.ClockRateBox.Name = "ClockRateBox";
+            this.ClockRateBox.Size = new System.Drawing.Size(100, 20);
+            this.ClockRateBox.TabIndex = 1;
             // 
-            // HeightBox
+            // BrandBox
             // 
-            this.HeightBox.Location = new System.Drawing.Point(143, 71);
-            this.HeightBox.Name = "HeightBox";
-            this.HeightBox.Size = new System.Drawing.Size(100, 20);
-            this.HeightBox.TabIndex = 2;
+            this.BrandBox.Location = new System.Drawing.Point(143, 71);
+            this.BrandBox.Name = "BrandBox";
+            this.BrandBox.Size = new System.Drawing.Size(100, 20);
+            this.BrandBox.TabIndex = 2;
             // 
             // ResultBox
             // 
@@ -76,11 +80,15 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.PriceBox);
+            this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.HeightBox);
-            this.groupBox1.Controls.Add(this.WidthBox);
-            this.groupBox1.Controls.Add(this.LengthBox);
-            this.groupBox1.Controls.Add(this.WindowsBox);
+            this.groupBox1.Controls.Add(this.BrandBox);
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.ClockRateBox);
+            this.groupBox1.Controls.Add(this.ModelBox);
+            this.groupBox1.Controls.Add(this.HardCapacityBox);
+            this.groupBox1.Controls.Add(this.RamCapacityBox);
             this.groupBox1.Location = new System.Drawing.Point(27, 27);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(249, 177);
@@ -91,45 +99,77 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(104, 97);
+            this.label4.Location = new System.Drawing.Point(68, 97);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(33, 13);
+            this.label4.Size = new System.Drawing.Size(69, 13);
             this.label4.TabIndex = 12;
-            this.label4.Text = "Окна";
+            this.label4.Text = "Объем HDD";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(97, 19);
+            this.label1.Location = new System.Drawing.Point(91, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 13);
+            this.label1.Size = new System.Drawing.Size(46, 13);
             this.label1.TabIndex = 6;
-            this.label1.Text = "Длина";
+            this.label1.Text = "Модель";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(92, 71);
+            this.label3.Location = new System.Drawing.Point(97, 71);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(45, 13);
+            this.label3.Size = new System.Drawing.Size(40, 13);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Высота";
+            this.label3.Text = "Марка";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(75, 149);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(62, 13);
+            this.label5.TabIndex = 11;
+            this.label5.Text = "Стоимость";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(91, 45);
+            this.label2.Location = new System.Drawing.Point(40, 45);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 13);
+            this.label2.Size = new System.Drawing.Size(97, 13);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Ширина";
+            this.label2.Text = "Тактовая частота";
             // 
-            // WindowsBox
+            // label6
             // 
-            this.WindowsBox.Location = new System.Drawing.Point(143, 97);
-            this.WindowsBox.Name = "WindowsBox";
-            this.WindowsBox.Size = new System.Drawing.Size(100, 20);
-            this.WindowsBox.TabIndex = 9;
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(68, 123);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(69, 13);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "Объем RAM";
+            // 
+            // HardCapacityBox
+            // 
+            this.HardCapacityBox.Location = new System.Drawing.Point(143, 97);
+            this.HardCapacityBox.Name = "HardCapacityBox";
+            this.HardCapacityBox.Size = new System.Drawing.Size(100, 20);
+            this.HardCapacityBox.TabIndex = 9;
+            // 
+            // RamCapacityBox
+            // 
+            this.RamCapacityBox.Location = new System.Drawing.Point(143, 123);
+            this.RamCapacityBox.Name = "RamCapacityBox";
+            this.RamCapacityBox.Size = new System.Drawing.Size(100, 20);
+            this.RamCapacityBox.TabIndex = 8;
+            // 
+            // PriceBox
+            // 
+            this.PriceBox.Location = new System.Drawing.Point(143, 149);
+            this.PriceBox.Name = "PriceBox";
+            this.PriceBox.Size = new System.Drawing.Size(100, 20);
+            this.PriceBox.TabIndex = 7;
             // 
             // StartButton
             // 
@@ -160,10 +200,12 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox LengthBox;
-        private System.Windows.Forms.TextBox WidthBox;
-        private System.Windows.Forms.TextBox HeightBox;
-        private System.Windows.Forms.TextBox WindowsBox;
+        private System.Windows.Forms.TextBox ModelBox;
+        private System.Windows.Forms.TextBox ClockRateBox;
+        private System.Windows.Forms.TextBox BrandBox;
+        private System.Windows.Forms.TextBox HardCapacityBox;
+        private System.Windows.Forms.TextBox RamCapacityBox;
+        private System.Windows.Forms.TextBox PriceBox;
         private System.Windows.Forms.TextBox ResultBox;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label3;
@@ -171,6 +213,8 @@
         private System.Windows.Forms.Button StartButton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
     }
 }
 
